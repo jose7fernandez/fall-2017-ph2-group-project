@@ -1,189 +1,142 @@
+/*Start global styling*/
+
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
-  background-color:#ccbc86;
+    margin-bottom: 60px;
+    background-color: #ccbc86;
 }
-   
-    /* change navbar-brand color */
-    
-    .navbar a.navbar-brand {
-        color: #009933;
-    }
-    /* change navbar-brand color on hover */
-    
-    .navbar a.navbar-brand:hover {
-        color: #3d5b95;
-        transition: 1s;
-    }
-  
-    /*  change navbar li colors on hover */
-    
-  .navbar-nav .nav-item .nav-link:hover {
-        color: #3d5b95;
-        transition: 1s;
-    }
-    /* change navbar-toggler inside lines color (stroke) */
-    
-    .navbar-light .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='red' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
-    /* change navbar-toggler background color */
-    
-    .navbar-toggler {
-        background-color: darkgreen;
-    }
-    /*change search icon background image and color*/
-    
-    .btnsearch {
-        background-image: url(../images/ic_search_black_18dp_2x.png);
-        background-repeat: no-repeat;
-        background-color: transparent;
-        height: 35px;
-        width: 34px;
-        border-style: none;
-    }
-    /* change search icon background color on hover*/
-    
-    .btnsearch:hover {
-        background-color: lightgray;
-        border-style: solid;
-        border-radius: 20px;
-        transition: .5s;
-    }
-    
-    
-    .container {
-        text-align: center;
-        margin-bottom: 20px;
-        height: 170px;
-    }
-    
-    .carousel-inner {
-        background-color:#ccbc86;
-        margin-top: 100px;
-        padding-bottom: 60px;
-       }
-    
 
-    .carousel-indicators li {
-        background-color: darkgreen;
-        width: 80px;
-        justify-content: space-between;
-    }
-    
-    .carousel-indicators li.active {
-        background-color:#cb132d;
-    }
-    
-    #carouselExampleIndicators {
-        overflow: auto;
-    }
-    
-    .carousel-control-prev,
-    .carousel-control-next {
-        background-color: transparent;
-        width:45px;
-        }
-    
-    .carousel-control-prev:hover,
-    .carousel-control-next:hover {
-        background-color:  rgba(34,139,34, 0.4);
-        transition: 1.5s;
-        width: 5%;
-    }
-    
-    .carousel-caption {
-        margin-bottom: 15px;
-    }
-    
-   
-    
-    .carousel-caption {
-        background-color: grey;
-        border-radius: 20px;
-        opacity: 0.75;
-    }
-    
-    
-    
 
- 
-   #background {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
+/*End global styling*/
+
+
+/*Start navbar styiing*/
+
+
+/* change navbar-brand color */
+
+.navbar a.navbar-brand {
+    color: #009933;
 }
- 
- 
- .subscribe {
-     height: 200px;
- }
- 
-    
-    .form-group {
-        margin-top: 250px;
-        padding-left: 150px;
-        padding-right: 150px;
-        height: 100px;
-        text-align: center;
-    }
-    
-    .form-group, label {
-        width:100%;
-        min-width:160px;
-        display:block;
-        /*color:white;*/
-        color:darkgreen;
-        font-size:20px;
-      
-    }
-    
-    .form-control{
-        border-radius: 20px;
-        display: block;
-        min-width: 150px;
-        margin-bottom: 0;
-        text-align: center;
-       
-    }
-     
-    
-    
-    .submit button {
-        display:block;
-        text-align: center;
-        margin: 0 auto;
-        background-color: red;
-        color: black;
-        border-color: darkgreen;
-        margin-bottom: 20px;
-        margin-top:30px;
-        border-radius: 20px;
-    }
-    
-    .submit button:hover {
-        background-color: darkgreen;
-        border-color: lightgreen;
-        transition: 1.5s;
-    }
-    
-    .modal-content {
-        margin-top: 100px;
-        text-align:center;
-    }
-    
-   footer,
+
+
+/* change navbar-brand color on hover */
+
+.navbar a.navbar-brand:hover {
+    color: #3d5b95;
+    transition: 1s;
+}
+
+
+/*  change navbar li colors on hover */
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #3d5b95;
+    transition: 1s;
+}
+
+
+/* change navbar-toggler inside lines color (stroke) */
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='red' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/* change navbar-toggler background color */
+
+.navbar-toggler {
+    background-color: darkgreen;
+}
+
+
+/*change search icon background image and color*/
+
+.btnsearch {
+    background-image: url(../images/ic_search_black_18dp_2x.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 35px;
+    width: 34px;
+    border-style: none;
+}
+
+
+/* change search icon background color on hover*/
+
+.btnsearch:hover {
+    background-color: lightgray;
+    border-style: solid;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+
+/*End navbar styiing*/
+
+
+/*Start Home page styiing*/
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+    height: 170px;
+}
+
+.carousel-inner {
+    background-color: #ccbc86;
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+
+.carousel-indicators li {
+    background-color: darkgreen;
+    width: 80px;
+    justify-content: space-between;
+}
+
+.carousel-indicators li.active {
+    background-color: #cb132d;
+}
+
+#carouselExampleIndicators {
+    overflow: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent;
+    width: 45px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(34, 139, 34, 0.4);
+    transition: 1.5s;
+    width: 5%;
+}
+
+.carousel-caption {
+    margin-bottom: 15px;
+}
+
+.carousel-caption {
+    background-color: grey;
+    border-radius: 20px;
+    opacity: 0.75;
+}
+
+
+/*End Home page styiing*/
+
+
+/*Start footer styiing*/
+
+footer,
 .fixed-bottom {
     height: 70px;
     text-align: center;
@@ -198,7 +151,13 @@ body {
 }
 
 
-/*Start history page css*/
+/*End footer styiing*/
+
+
+/**/
+
+
+/*Start history page styling*/
 
 .history {
     height: 100vh;
@@ -209,28 +168,30 @@ body {
 }
 
 .history-text {
+    text-align: center;
     margin-bottom: 80px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
 
-/*End history page css*/
+/*End history page styling*/
 
 
 /**/
- 
- 
-    
-    /*Start hiking trails page css*/
-    .row-one {
+
+
+/*Start hiking trails page css*/
+
+.row-one {
     text-align: center;
-    margin-top:  55px;
-    background-color:rgba(34,139,34, 0.4); 
-    
+    margin-top: 55px;
+    background-color: rgba(34, 139, 34, 0.4);
 }
 
-h3, h6, p {
+h3,
+h6,
+p {
     text-align: center;
 }
 
@@ -239,10 +200,10 @@ h6 {
     ;
 }
 
-img{
+img {
     display: block;
     margin: 0 auto;
-   }
+}
 
 button.accordion {
     background-color: #eee;
@@ -255,12 +216,12 @@ button.accordion {
     font-size: 15px;
     transition: 0.4s;
     min-height: 200px;
-    
 }
 
-button.accordion.active, button.accordion:hover {
+button.accordion.active,
+button.accordion:hover {
     background-color: #ccc;
-     height:auto;
+    height: auto;
 }
 
 div .panel {
@@ -270,18 +231,102 @@ div .panel {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+
 /*end hiking css*/
 
 
+/*Start Contact page styling*/
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
+
+.subscribe {
+    height: 200px;
+    align-items: center;
+}
+
+.form-group {
+    margin-top: 250px;
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 100px;
+    text-align: center;
+}
+
+.form-group,
+label {
+    width: 100%;
+    min-width: 160px;
+    display: block;
+    /*color:white;*/
+    color: darkgreen;
+    font-size: 20px;
+}
+
+.form-control {
+    border-radius: 20px;
+    display: block;
+    min-width: 150px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.submit button {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: transparent;
+    color: black;
+    border-color: darkgreen;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.submit button:hover {
+    background-color: #718c22;
+    border-color: lightgreen;
+    transition: 1.5s;
+}
+
+.modal-content {
+    margin-top: 100px;
+    text-align: center;
+    background-color: #8c7122;
+    color: #4d1a00;
+}
 
 
-/* .container-fluid .archive {*/
-/*    background-image: url(../images/phase1_images/historical.jpg);*/
-/*    background-size: cover;*/
-/*    background-repeat: no-repeat;*/
-/*    margin-bottom: 50px;*/
-/*}*/
+/*Removes box shadow from .submit button after modal content is hidden*/
 
+.btn-primary.focus,
+.btn-primary:focus {
+    box-shadow: none;
+}
+
+
+/*End Contact page styiing*/
+
+
+/**/
+
+
+/*Media queries*/
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 
 @media only screen and (max-width: 700px) {
     .form-group {
