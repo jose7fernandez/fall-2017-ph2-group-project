@@ -340,5 +340,6 @@ label {
     }
     .carousel-caption {
         font-size: 14px;
+        height: 400px;
     }
 }
