@@ -161,13 +161,18 @@ footer,
 
 /*Start history page styling*/
 
-.history {
-    height: 100vh;
-    background-image: url(../images/phase1_images/historical.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+/*.history {*/
+/*    height: 100vh;*/
+/*    background-image: url(../images/phase1_images/historical.jpg);*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+/*}*/
+
+.acadia {
+        width: 100%;
+        margin-top: 55px;
+        }
 
 .history-text {
     text-align: center;
@@ -338,6 +343,7 @@ label {
         height: 100px;
         text-align: center;
     }
+    
     .carousel-caption {
         font-size: 14px;
         height: 400px;
