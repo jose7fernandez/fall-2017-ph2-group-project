@@ -254,15 +254,13 @@ footer,
     transition: 1.5s;
     width: 5%;
 }
-.carousel-caption {
+.carousel-caption p {
+    background-color: grey;
+    font-size: 17px;
+    border-radius: 20px;
     margin-bottom: 15px;
     padding-left: 10px;
     padding-right: 10px;
-}
-.carousel-caption {
-    background-color: grey;
-    border-radius: 20px;
-    opacity: 0.75;
 }
 
 /*End Home page styiing*/
