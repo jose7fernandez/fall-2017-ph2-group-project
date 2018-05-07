@@ -133,7 +133,8 @@ body {
     font-size: 17px;
     font-weight: 500;
     border-radius: 20px;
-    margin-bottom: 15px;
+    height: auto;
+    margin-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -237,7 +238,8 @@ footer,
     margin-top: 55px;
     background-color: rgba(34, 139, 34, 0.4);
 }
-=======/*Start history page styling*/
+
+/*Start history page styling*/
 .history {
     height: 100vh;
     background-image: url(../images/phase1_images/historical.jpg);
@@ -397,14 +399,10 @@ label {
     .btnsearch {
         margin-left: -35px;
     }
-    
-    .carousel-caption {
-        font-size: 14px;
-    }
 }
 .carousel-caption {
     font-size: 14px;
-    height: 400px;
+    height: auto;
 }
 
 }
