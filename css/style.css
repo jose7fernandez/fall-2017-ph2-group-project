@@ -400,9 +400,14 @@ label {
         margin-left: -35px;
     }
 }
-.carousel-caption {
+.carousel-caption h4 {
+    padding: 5px;
+}
+.carousel-caption p {
+    display: none;
     font-size: 14px;
-    height: auto;
+}
+
 }
 
 }
