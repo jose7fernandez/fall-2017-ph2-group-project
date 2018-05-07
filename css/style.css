@@ -232,13 +232,6 @@ footer,
     transition: .5s;
 }
 
-/*Start hiking trails page css*/
-.row-one {
-    text-align: center;
-    margin-top: 55px;
-    background-color: rgba(34, 139, 34, 0.4);
-}
-
 /*Start history page styling*/
 .history {
     height: 100vh;
@@ -308,6 +301,10 @@ div .panel {
 
 /*end hiking css*/
 
+/**/
+
+/**/
+
 /*Start Contact page styling*/
 
 /*Start Contact page styling*/
@@ -339,8 +336,6 @@ label {
     width: 100%;
     min-width: 160px;
     display: block;
-    /*color:white;*/
-    
     color: darkgreen;
     font-size: 20px;
 }
@@ -399,15 +394,13 @@ label {
     .btnsearch {
         margin-left: -35px;
     }
-}
-.carousel-caption h4 {
-    padding: 5px;
-}
-.carousel-caption p {
-    display: none;
-    font-size: 14px;
-}
-
-}
-
+    
+    .carousel-caption h4 {
+        padding: 5px;
+    }
+    
+    .carousel-caption p {
+        display: none;
+        font-size: 14px;
+    }
 }
