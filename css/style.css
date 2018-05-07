@@ -254,9 +254,17 @@ footer,
     transition: 1.5s;
     width: 5%;
 }
+.carousel-caption h4 {
+    background-color: grey;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: .75;
+}
 .carousel-caption p {
     background-color: grey;
     font-size: 17px;
+    font-weight: 500;
     border-radius: 20px;
     margin-bottom: 15px;
     padding-left: 10px;
