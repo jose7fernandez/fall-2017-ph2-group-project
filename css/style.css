@@ -21,6 +21,7 @@ body {
 
 .navbar a.navbar-brand {
     color: #009933;
+    <<<<<<< HEAD
 }
 
 
@@ -122,8 +123,6 @@ body {
 
 .carousel-caption {
     margin-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .carousel-caption {
@@ -161,22 +160,17 @@ footer,
 
 /*Start history page styling*/
 
-/*.history {*/
-/*    height: 100vh;*/
-/*    background-image: url(../images/phase1_images/historical.jpg);*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*    background-position: center;*/
-/*}*/
-
-.acadia {
-        width: 100%;
-        margin-top: 55px;
-        }
+.history {
+    background-image: url(../images/phase1_images/historical.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .history-text {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -184,34 +178,170 @@ footer,
 
 /*End history page styling*/
 
+=======
+}
+
+/* change navbar-brand color on hover */
+.navbar a.navbar-brand:hover {
+    color: #3d5b95;
+    transition: 1s;
+}
+
+/*  change navbar li colors on hover */
+.navbar-nav .nav-item .nav-link:hover {
+    color: #3d5b95;
+    transition: 1s;
+}
+
+/* change navbar-toggler inside lines color (stroke) */
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='red' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* change navbar-toggler background color */
+.navbar-toggler {
+    background-color: darkgreen;
+}
+
+/*change search icon background image and color*/
+.btnsearch {
+    background-image: url(../images/ic_search_black_18dp_2x.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 35px;
+    width: 34px;
+    border-style: none;
+}
+
+/* change search icon background color on hover*/
+.btnsearch:hover {
+    background-color: lightgray;
+    border-style: solid;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+/*End navbar styiing*/
+
+/*Start Home page styiing*/
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+    height: 170px;
+}
+.carousel-inner {
+    background-color: #ccbc86;
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+.carousel-indicators li {
+    background-color: darkgreen;
+    width: 80px;
+    justify-content: space-between;
+}
+.carousel-indicators li.active {
+    background-color: #cb132d;
+}
+#carouselExampleIndicators {
+    overflow: auto;
+}
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: transparent;
+    width: 45px;
+}
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(34, 139, 34, 0.4);
+    transition: 1.5s;
+    width: 5%;
+}
+.carousel-caption {
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.carousel-caption {
+    background-color: grey;
+    border-radius: 20px;
+    opacity: 0.75;
+}
+
+/*End Home page styiing*/
+
+/*Start footer styiing*/
+footer,
+.fixed-bottom {
+    height: 70px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #718c22;
+    padding-top: 12px;
+}
+.footer-text {
+    font-size: 10px;
+    color: #fff;
+}
+
+/*End footer styiing*/
 
 /**/
 
-
 /*Start hiking trails page css*/
-
 .row-one {
     text-align: center;
     margin-top: 55px;
     background-color: rgba(34, 139, 34, 0.4);
 }
+=======/*Start history page styling*/
 
+/*.history {*/
+
+/*    height: 100vh;*/
+
+/*    background-image: url(../images/phase1_images/historical.jpg);*/
+
+/*    background-repeat: no-repeat;*/
+
+/*    background-size: cover;*/
+
+/*    background-position: center;*/
+
+/*}*/
+.acadia {
+    width: 100%;
+    margin-top: 55px;
+}
+.history-text {
+    text-align: center;
+    margin-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/*End history page styling*/
+
+/**/
+
+/*Start hiking trails page css*/
+.row-one {
+    text-align: center;
+    margin-top: 55px;
+    background-color: rgba(34, 139, 34, 0.4);
+}
 h3,
 h6,
 p {
     text-align: center;
 }
-
 h6 {
     min-height: 40px;
     ;
 }
-
 img {
     display: block;
     margin: 0 auto;
 }
-
 button.accordion {
     background-color: #eee;
     color: #444;
@@ -224,13 +354,11 @@ button.accordion {
     transition: 0.4s;
     min-height: 200px;
 }
-
 button.accordion.active,
 button.accordion:hover {
     background-color: #ccc;
     height: auto;
 }
-
 div .panel {
     padding: 0 18px;
     background-color: white;
@@ -239,12 +367,11 @@ div .panel {
     transition: max-height 0.2s ease-out;
 }
 
-
 /*end hiking css*/
-
 
 /*Start Contact page styling*/
 
+/*Start Contact page styling*/
 #background {
     position: fixed;
     top: 50%;
@@ -257,12 +384,10 @@ div .panel {
     transform: translateX(-50%) translateY(-50%);
     background-size: cover;
 }
-
 .subscribe {
     height: 200px;
     align-items: center;
 }
-
 .form-group {
     margin-top: 250px;
     padding-left: 150px;
@@ -270,17 +395,16 @@ div .panel {
     height: 100px;
     text-align: center;
 }
-
 .form-group,
 label {
     width: 100%;
     min-width: 160px;
     display: block;
     /*color:white;*/
+    
     color: darkgreen;
     font-size: 20px;
 }
-
 .form-control {
     border-radius: 20px;
     display: block;
@@ -288,7 +412,6 @@ label {
     margin-bottom: 0;
     text-align: center;
 }
-
 .submit button {
     display: block;
     text-align: center;
@@ -300,13 +423,11 @@ label {
     margin-top: 30px;
     border-radius: 20px;
 }
-
 .submit button:hover {
     background-color: #718c22;
     border-color: lightgreen;
     transition: 1.5s;
 }
-
 .modal-content {
     margin-top: 100px;
     text-align: center;
@@ -314,27 +435,19 @@ label {
     color: #4d1a00;
 }
 
-
 /*Removes box shadow from .submit button after modal content is hidden*/
-
 .btn-primary.focus,
 .btn-primary:focus {
     box-shadow: none;
 }
 
-
 /*End Contact page styiing*/
-
 
 /**/
 
-
 /*Media queries*/
 
-
-
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-
 @media only screen and (max-width: 700px) {
     .form-group {
         margin-top: 250px;
@@ -344,8 +457,17 @@ label {
         text-align: center;
     }
     
+    .btnsearch {
+        margin-left: -35px;
+    }
+    
     .carousel-caption {
         font-size: 14px;
-        height: 400px;
     }
+}
+.carousel-caption {
+    font-size: 14px;
+    height: 400px;
+}
+
 }
