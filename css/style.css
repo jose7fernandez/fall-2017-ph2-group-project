@@ -121,12 +121,22 @@ body {
     width: 5%;
 }
 
-.carousel-caption > p {
+.carousel-caption h4 {
     background-color: grey;
     border-radius: 20px;
-    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: .75;
+}
+
+.carousel-caption p {
+    background-color: grey;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 20px;
     margin-bottom: 15px;
-    opacity: 0.75;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -151,6 +161,9 @@ footer,
 
 
 /*End footer styiing*/
+
+
+/**/
 
 
 /**/
@@ -218,78 +231,6 @@ footer,
     border-radius: 20px;
     transition: .5s;
 }
-
-/*End navbar styiing*/
-
-/*Start Home page styiing*/
-.container {
-    text-align: center;
-    margin-bottom: 20px;
-    height: 170px;
-}
-.carousel-inner {
-    background-color: #ccbc86;
-    margin-top: 100px;
-    padding-bottom: 60px;
-}
-.carousel-indicators li {
-    background-color: darkgreen;
-    width: 80px;
-    justify-content: space-between;
-}
-.carousel-indicators li.active {
-    background-color: #cb132d;
-}
-#carouselExampleIndicators {
-    overflow: auto;
-}
-.carousel-control-prev,
-.carousel-control-next {
-    background-color: transparent;
-    width: 45px;
-}
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    background-color: rgba(34, 139, 34, 0.4);
-    transition: 1.5s;
-    width: 5%;
-}
-.carousel-caption h4 {
-    background-color: grey;
-    border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    opacity: .75;
-}
-.carousel-caption p {
-    background-color: grey;
-    font-size: 17px;
-    font-weight: 500;
-    border-radius: 20px;
-    margin-bottom: 15px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-/*End Home page styiing*/
-
-/*Start footer styiing*/
-footer,
-.fixed-bottom {
-    height: 70px;
-    text-align: center;
-    font-size: 10px;
-    background-color: #718c22;
-    padding-top: 12px;
-}
-.footer-text {
-    font-size: 10px;
-    color: #fff;
-}
-
-/*End footer styiing*/
-
-/**/
 
 /*Start hiking trails page css*/
 .row-one {
