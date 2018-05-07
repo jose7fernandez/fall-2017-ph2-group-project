@@ -121,13 +121,11 @@ body {
     width: 5%;
 }
 
-.carousel-caption {
-    margin-bottom: 15px;
-}
-
-.carousel-caption {
+.carousel-caption > p {
     background-color: grey;
     border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 15px;
     opacity: 0.75;
 }
 
@@ -294,20 +292,13 @@ footer,
     background-color: rgba(34, 139, 34, 0.4);
 }
 =======/*Start history page styling*/
-
-/*.history {*/
-
-/*    height: 100vh;*/
-
-/*    background-image: url(../images/phase1_images/historical.jpg);*/
-
-/*    background-repeat: no-repeat;*/
-
-/*    background-size: cover;*/
-
-/*    background-position: center;*/
-
-/*}*/
+.history {
+    height: 100vh;
+    background-image: url(../images/phase1_images/historical.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 .acadia {
     width: 100%;
     margin-top: 55px;
